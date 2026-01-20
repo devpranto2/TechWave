@@ -1,39 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>TechWave</title>
-</head>
-<body>
+  </head>
+  <body class="bg-[#1A0B2E]">
     <section>
-        <header class=" bg-[#1A0B2E]">
-            <nav class="w-10/12 mx-auto text-white flex justify-between p-4">
-                <div>
-                    <h1 class="text-xl md:text-3xl font-semibold">Tech<span class="bg-gradient-to-tr from-[#e8d610] via-[#FB09B4] to-[#7c00d4] bg-clip-text text-transparent">Wave</span> </h1>
-                </div>
-                <div class="menu hidden md:flex gap-7 mt-2 ">
-                    <a href="">About</a>
-                    <a href="">Episodes</a>
-                    <a href="">Host</a>
-                </div>
-                <div class="hidden md:flex">
-                 <button class="lg:btn bg-gradient-to-tr from-[#e8d610] via-[#FB09B4] to-[#7c00d4] p-2 px-4 rounded-4xl"> Subscribe <i class="fa-solid fa-arrow-right"></i></button>
-                 
-                </div>
-                <div class="md:hidden my-1">
-                    <img  src="./assets/hamburger-menu.png" alt="">
-                </div>
-
-            </nav>
-        </header>
+      <header class="bg-[#1A0B2E]">
+        <nav class="w-10/12 mx-auto text-white flex justify-between p-4">
+          <div>
+            <h1 class="text-xl md:text-3xl font-semibold">
+              Tech<span
+                class="bg-gradient-to-tr from-[#e8d610] via-[#FB09B4] to-[#7c00d4] bg-clip-text text-transparent"
+                >Wave</span
+              >
+            </h1>
+          </div>
+          <div class="menu hidden md:flex gap-7 mt-2">
+            <a href="">About</a>
+            <a href="">Episodes</a>
+            <a href="">Host</a>
+          </div>
+          <div class="hidden md:flex">
+            <button
+              class="lg:btn bg-gradient-to-tr from-[#e8d610] via-[#FB09B4] to-[#7c00d4] p-2 px-4 rounded-4xl"
+            >
+              Subscribe <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="md:hidden my-1">
+            <img src="./assets/hamburger-menu.png" alt="" />
+          </div>
+        </nav>
+      </header>
     </section>
+      <!-- banner section -->
+<section class="w-full min-h-[85vh] flex items-center justify-center text-white bg-[#1A0B2E]">
+  <div class="w-full md:min-h-[85vh] flex items-center justify-center bg-[url('./assets/hero-bg.png')] bg-contain  md:bg-cover bg-[center_top] md:bg-center bg-no-repeat">
+    <div class="w-10/12 mx-auto flex flex-col items-center text-center py-16">
+      <div class="relative bottom-20">
+        <div class="relative w-44 h-44 sm:w-52 sm:h-52 md:w-[350px] md:h-[350px] flex items-center justify-center">
+          <img src="./assets/hero-circle.png" alt="" class="w-full h-full object-contain" />
+          <img src="./assets/microphone.png" alt="" class="absolute w-16 sm:w-20 md:w-24" />
+        </div>
+        <span class="absolute top-2 right-2 md:right-4 text-[12px] md:text-[15px] font-bold tracking-wide bg-emerald-400 text-black px-3 py-1 rounded-full">NEW</span>
+      </div>
+
+      <h1 class="mt-10 text-4xl sm:text-5xl font-extrabold">TechWave</h1>
+      <p class="mt-3 text-sm sm:text-base text-white/70 max-w-xl">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+    <div class="mt-7 flex gap-3 ">
+        <button class=" px-3 py-3 sm:px-6 sm:py-3 rounded-full font-medium text-xs sm:text-base bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-900 text-white shadow-lg hover:opacity-90 transition whitespace-nowrap"><i class="fa-brands fa-spotify mr-2 inline-block"></i>Listen On Spotify</button>
+        <button class=" px-3 py-3 sm:px-6 sm:py-3 rounded-full font-medium text-xs sm:text-base border border-emerald-400 text-emerald-400 hover:bg-emerald-400 hover:text-black transition whitespace-nowrap"><i class="fa-regular fa-bell mr-2"></i>Subscribe</button>
+    </div>
+
+    </div>
+  </div>
+</section>
 
 
 
 
 
-    <script src="https://kit.fontawesome.com/9b013527cf.js" crossorigin="anonymous"></script>
-</body>
+
+    <script
+      src="https://kit.fontawesome.com/9b013527cf.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
